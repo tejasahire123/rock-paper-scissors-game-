@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#008000;
+    
+}
+.beg{
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.nam{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.activity{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 2rem;
+    /* background-color: black; */
+    /* height: 100px; */
+    /* width: 50%; */
+    align-items: center;
+    text-align: center;
+    
+    /* background-color: ; */
+}
+.images{
+    /* background-color: red; */
+    border-color: black;
+    /* border-radius: 100px; */
+}
+
+.activity>.images>img{
+    /* background-color: red; */
+    /* border: double; */
+    border-radius: 50%;
+        height: 150px;
+    width: 150px;
+   
+
+}
+.activity>.images>img:hover{
+    border-color:black;
+    border: double;
+    opacity: 0.6;
+    
+    
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 9rem;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.result>h1{
+    color: black;
+
+}
+.points{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+   
+}
+
+.msg_con>.message{
+
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+   
+    text-align: center;
+    display: inline;
+    margin-top: 100px;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 500px;
+
+
+
+    
+}
+
+@media screen and (min-width:390px ) and  (max-width:844px)  {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color:#008000;
+        
+    }
+    .beg{
+        font-size: 3rem;
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    .nam{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .activity{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 2rem;
+        /* background-color: black; */
+        /* height: 100px; */
+        /* width: 50%; */
+        /* align-items: center; */
+        text-align: center;
+        
+        /* background-color: ; */
+    }
+    .images{
+        border-color: black;
+    }
+    
+    .activity>.images>img{
+        /* background-color: red; */
+        /* border: double; */
+        border-color: black;
+        border-radius: 50%;
+            height: 100px;
+        width: 100px;
+       
+    
+    }
+    .activity>.images>img:hover{
+        border-color:black;
+        border: double;
+        opacity: 0.6;
+        
+        
+    }
+    
+    .result{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .result>h1{
+        color: black;
+    
+    }
+    .points{
+        height: 100px;
+        width: 100px;
+        background-color: black;
+       
+    }
+    
+    .msg_con>.message{
+    
+        font-size: 30px;
+        color: white;
+        background-color: black;
+       
+        text-align: center;
+        display: inline;
+        margin-top: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 5%;
+    
+    
+    
+        
+    }
+}
